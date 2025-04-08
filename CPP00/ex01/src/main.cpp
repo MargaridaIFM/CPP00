@@ -6,7 +6,7 @@
 /*   By: mfrancis <mfrancis@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/18 21:51:07 by mfrancis          #+#    #+#             */
-/*   Updated: 2025/04/04 18:53:25 by mfrancis         ###   ########.fr       */
+/*   Updated: 2025/04/08 22:10:21 by mfrancis         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 int	main(int argc, char **argv)
 {
-	//PhoneBook phonebook;
+	PhoneBook phonebook;
 	std::string cmd;
 	
 	while (1)
@@ -26,15 +26,13 @@ int	main(int argc, char **argv)
 		if (std::cin.fail())
 			exit(EXIT_FAILURE);
 		if (cmd == "ADD")
-			std::cout << "imput: ADD" << std::endl;
-		// phonebook.AddContact();
+			phonebook.AddContact();
 		else if (cmd == "SEARCH")
-			std::cout << " imput: SEARCH" << std::endl;
-		// phonebook.SearchContact();
+			phonebook.SearchContact();
 		else if (cmd == "EXIT")
 			exit(EXIT_SUCCESS);
 		else
-			std::cout << "Invalid command! Try again." << std::endl;
+			std::cout << "Invalid command! Try again.\n"; // << std::endl;
 	}
 	return (0);
 }
