@@ -32,7 +32,7 @@ int	main(int argc, char **argv)
 		else if (cmd == "EXIT")
 			exit(EXIT_SUCCESS);
 		else
-			std::cout << "Invalid command! Try again.\n"; // << std::endl;
+			std::cout << "Invalid command! Try again." << std::endl;
 	}
 	return (0);
 }

@@ -13,7 +13,7 @@
 #ifndef PHONEBOOK_HPP
 # define PHONEBOOK_HPP
 
-# include <iostream>
+#include <iostream>
 #include <limits>
 #include "Contact.hpp"
 
@@ -24,11 +24,7 @@ private:
     int idx;
     
 public:
-    // Investigar / ver overload
     PhoneBook();
-    //Phonebook(args) 
-    //PhoneBook(PhoneBook const &copy); // default copy constructor
-    //PhoneBook &operator=(PhoneBook const &copy); // default assignation operator 
     ~PhoneBook(); 
 
     void AddContact();

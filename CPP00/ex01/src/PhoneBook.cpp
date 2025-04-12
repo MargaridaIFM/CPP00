@@ -28,7 +28,7 @@ void PhoneBook::AddContact()
     contacts[idx].SetContact();
     idx++;
 }
-// se nao funcitonar fazer com string e converter;
+
 void PhoneBook::SearchContact()
 {
     int index;

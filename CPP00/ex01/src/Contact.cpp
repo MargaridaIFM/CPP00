@@ -21,9 +21,6 @@ Contact::~Contact()
 {
     std::cout << "Contact Destructor Called" << std::endl;
 }
-// Contact::Contact(/* args */)
-// {
-// }
 
 void Contact::SetContact()
 {

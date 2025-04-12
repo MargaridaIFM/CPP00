@@ -28,9 +28,6 @@ class Contact
         
     public:
         Contact();
-        // Contact(/*args*/);
-        // Contact(/*args copy*/);
-        // Contact &operator=(/*args copy*/);
         ~Contact();
         
         void   SetContact();
