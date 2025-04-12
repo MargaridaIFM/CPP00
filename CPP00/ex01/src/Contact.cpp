@@ -14,12 +14,12 @@
 
 Contact::Contact()
 {
-    std::cout << "Contact Constructer Called" << std::endl;
+    //std::cout << "Contact Constructer Called" << std::endl;
 }
  
 Contact::~Contact()
 {
-    std::cout << "Contact Destructor Called" << std::endl;
+    //std::cout << "Contact Destructor Called" << std::endl;
 }
 
 void Contact::SetContact()
